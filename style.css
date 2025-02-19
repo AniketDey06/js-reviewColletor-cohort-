@@ -84,3 +84,19 @@ button:hover{
     margin: 10px 0;
     font-size: 14px;
 }
+
+@media screen and (max-width: 720px)   {
+    .main{
+        /* height; */
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        
+        /* width: 70%; */
+    }
+
+    .block{
+        width: 350px;
+        /* justify-content: center; */
+    }
+}
